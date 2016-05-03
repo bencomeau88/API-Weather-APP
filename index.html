@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>API Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="owfont-regular.min.css">
+</head>
+
+<body>
+<div id='navBar'> </div>
+    <div id="todos">
+    	
+        <img class='image-masthead' src="../svgs/allWeather.svg" alt="weather photo" width:30px height:30px>
+        <h1 id="masthead">Weather in Your Neck of the Woods</h1>
+        <form id="weatherForm"> 
+            <input id="cityName" type="text" placeholder="What City Do You Live In?">
+            <button>Press Me!</button>
+        </form>
+
+        <ul id="forecast"></ul>
+        <button id="clear">Clear Data</button> 
+    </div>
+
+	<div id='bottomNav'></div>
+
+    <div id='cloudyDays'>
+        <img src="../svgs/cloud.svg" alt="CLOUD, BITCH" id="cloud">
+    </div>
+    
+    <div id='rainyDays'>
+        <img src="../svgs/rainCloud.svg" alt="IT GON RAIN" id='rainCloud'>
+    </div>
+    
+    <div id='sunnyDays'>
+        <img src="../svgs/sunshine.svg" alt="SUNNY!" id='sun'>
+
+</div>
+<div id="everything"> TEST TEST </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
